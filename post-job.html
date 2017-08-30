@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <title>Post Job</title>
+    <link href="css/post-job.css" media="all" rel="stylesheet" type="text/css" />
+    
+</head>
+<body><!--top Links-->
+
+<div class="pxs_container2" id="pxs_container">
+<div class="menu_container">
+<ul class="sf-menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="post-job.html">Post Job</a></li>
+    <li><a href="contactus.html">Contact</a></li>
+</ul>
+</div>
+
+<div class="pxs_bg">
+<div class="pxs_bg1"></div>
+
+<div class="pxs_bg2"></div>
+
+<div class="pxs_bg3"></div>
+</div>
+</div>
+<!--end of top link-->
+
+<div class="content-home" style="padding-top: 70px;">
+<div class="main2">
+<div class="left">
+<div class="blocco-titolo">
+<h1>Post Job</h1>
+</div>
+
+<div class="content" style="height: 600px; border-bottom-color: rgb(212, 212, 212); border-bottom-width: 1px; border-bottom-style: solid;">
+<form action="todb2.php" encytype="multipart/form-data" method="POST">
+<div class="main-content">
+<fieldset><legend>Personal Information</legend> Full name:<br />
+<input name="firstname" placeholder=" firstname" required="" type="text" value="" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="secondname" placeholder=" lastname" required="" type="text" value="" /><br />
+<br br="" phone="" />
+<input name="phonenum" placeholder=" phonenumber" required="" type="varchar" value="" /><br />
+<br />
+Email:<br />
+<input name="email" placeholder=" email" required="" type="varchar" value="" /><br />
+
+Cover Letter:<br />
+<div class="col-md-12"><textarea placeholder="Message">Max. 2000 Characters</textarea></div>
+
+
+<br />
+<i>Highest Qualification:</i> &nbsp;&nbsp; <select class="box" name="level" style="border-radius: 4px; border: 1px solid rgb(140, 198, 62); border-image: none; font-style: italic;" type="text"><option>Undergraduate</option><option>Postgraduate</option><option>High school</option><option>phd</option><option>college</option> </select> &nbsp;&nbsp;<br />
+<i>Years of Experience:</i> &nbsp;&nbsp; <select class="box" name="years" style="border-radius: 4px; border: 1px solid rgb(140, 198, 62); border-image: none; font-style: italic;" type="text"><option>Less than 1 Year</option><option>2 YEARS</option><option>2 YEARS</option><option>3 YEARS</option><option>4 YEARS</option><option>5 YEARS</option><option>6 YEARS</option><option>7 YEARS</option></select>&nbsp;&nbsp;<br />
+
+<br />
+<i>Attach CV:</i> &nbsp;&nbsp; <input name="attachment" type="file" /><br />
+<br />
+<input type="submit" value="submit" />
+</div>
+</form>
+
+</fieldset>
+
+<p></p>
+</div>
+</div>
+
+<div class="right">
+
+</div>
+
+</div>
+</div>
+<!--include footer start-->
+
+
+
+
+</body>
+</html>
